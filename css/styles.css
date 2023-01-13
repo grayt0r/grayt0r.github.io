@@ -17,8 +17,6 @@ html {
   --font-weight-regular: 400;
 }
 
-/* TODO: add light theme colours */
-
 body {
   font-family: var(--font-text);
 
@@ -80,3 +78,17 @@ a {
   padding: 0;
   border: 0;
 }
+
+/* TODO: improve and enable */
+/* @media (prefers-color-scheme: light) {
+  html {
+    --color-bg: #f4f4f8;
+    --color-primary: #00879d;
+    --color-secondary: #4a4e4d;
+    --color-text: #00677c;
+  }
+
+  body {
+    background-image: url("/images/wiggle-light.svg");
+  }
+} */
