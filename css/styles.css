@@ -38,8 +38,7 @@ h1 {
   line-height: 1;
 
   font-family: var(--font-accent);
-  /* TODO: make this responsive */
-  font-size: 4rem;
+  font-size: clamp(3rem, 6vw + 1.75rem, 4.5rem);
   font-weight: var(--font-weight-regular);
 
   text-shadow: 0 0 2px var(--color-primary), 0 0 4px var(--color-secondary);
