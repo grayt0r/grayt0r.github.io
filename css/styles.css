@@ -41,7 +41,10 @@ h1 {
 
   font-family: var(--font-accent);
   /* TODO: make this responsive */
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: var(--font-weight-regular);
+
+  text-shadow: 0 0 2px var(--color-primary), 0 0 4px var(--color-secondary);
 }
 
 h2 {
